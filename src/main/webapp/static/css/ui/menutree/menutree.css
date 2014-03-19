@@ -1,0 +1,147 @@
+.foldmenu {
+    width: 213px;
+    padding: 40px 28px 25px 0;
+    font-family: "CenturyGothicRegular", "Century Gothic", Arial, Helvetica, sans-serif;
+}
+
+ul.foldmenu {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+    list-style: none;
+    font-weight: bold;
+}
+
+ul.foldmenu > li {
+    border-top: 1px dotted #DDDDDD;
+    }
+ul.foldmenu > li > a{
+    /*border-top: 1px dotted #DDDDDD;*/
+
+
+}
+
+ul.foldmenu li a {
+    line-height: 18px;
+    font-size: 14px;
+    padding: 10px 5px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+ul.foldmenu li a:hover {
+    background-color:#DDD;
+    color:white;
+}
+
+ul.foldmenu ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: none;
+}
+
+ul.foldmenu ul li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style: none;
+}
+ul.foldmenu > li:last-child {
+    border-bottom: 1px dotted #DDDDDD;
+}
+
+ul.foldmenu ul li a {
+    /*padding-left: 20px;*/
+    font-size: 12px;
+    font-weight: bold;
+    outline:0;
+}
+
+ul.foldmenu ul li a:hover {
+    /*background-color:#D3C99C;*/
+    color:#FF0030;
+}
+
+ul.foldmenu ul ul li a {
+    color:silver;
+    /*padding-left: 40px;*/
+}
+
+ul.foldmenu ul ul li a:hover {
+    background-color:#D3CEB8;
+    color:#675C7C;
+}
+
+ul.foldmenu span{
+    float:right;
+}
+
+ul.foldmenu .active a{
+    color: #ff3030;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ul.foldmenu{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+/*ul.foldmenu > li ul{*/
+    /*margin: 0 0 10px 25px;*/
+    /*padding: 0;*/
+/*}*/
+/*ul.foldmenu > li {*/
+    /*border-top: 1px solid #dedede;*/
+    /*list-style: none outside none;*/
+/*}*/
+/*ul.foldmenu > li > a {*/
+    /*line-height: 30px;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+    /*color: #939699;*/
+
+/*}*/
+/*ul.foldmenu > li  ul  li{*/
+    /*list-style: none outside none;*/
+    /*line-height: 30px;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+    /*color: #939699;*/
+/*}*/
+
+/*.foldmenu .menuTree {*/
+    /*text-decoration: none;*/
+    /*background-color: #FAFAFA;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.foldmenu .menuTree:before {*/
+    /*content: "+ ";*/
+/*}*/
+/*.foldmenu .expanded:before {*/
+    /*content: "- ";*/
+/*}*/
+/*.foldmenu .collapsed {*/
+    /*display: none;*/
+/*}*/

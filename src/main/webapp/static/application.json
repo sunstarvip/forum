@@ -1,0 +1,328 @@
+{
+    "id": "fiberhomecsp",
+    "name": "烽火通信客户服务平台",
+    "version": 1,
+    "host": "/fiberhomecsp",
+    "modules": [
+        {
+            "id": "fiberhomecsp:study:coursemanager",
+            "name": "课程管理",
+            "img": "",
+            "url": "/courseType/list",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"fiberhomecsp:study:coursemanager:courseType:list",
+                    "name":"课程类别树表",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:addParent",
+                    "name":"新增分类",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:addChild",
+                    "name":"新增子分类",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:addSubject",
+                    "name":"新增科目",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:edit",
+                    "name":"修改",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:delete",
+                    "name":"删除",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:merge",
+                    "name":"合并分类",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:submit",
+                    "name":"提交",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:course:list",
+                    "name":"课程列表",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:course:add",
+                    "name":"添加课程",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:course:edit",
+                    "name":"修改课程",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:course:delete",
+                    "name":"删除课程",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseware:list",
+                    "name":"章节列表",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseware:add",
+                    "name":"添加章节",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseware:edit",
+                    "name":"修改章节",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseware:delete",
+                    "name":"删除章节",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:attachment:upload",
+                    "name":"上传课件",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:attachment:download",
+                    "name":"下载课件",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:attachment:delete",
+                    "name":"删除课件",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "fiberhomecsp:study:selectmanager",
+            "name": "选课管理",
+            "img": "",
+            "url": "/selectCourse/selectCourseType",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"fiberhomecsp:study:selectmanager:courseType:list",
+                    "name":"课程类别树表",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:coursemanager:courseType:addParent",
+                    "name":"新增分类",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "fiberhomecsp:study:mycourse",
+            "name": "我的课程",
+            "img": "",
+            "url": "/selectCourse/list",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"fiberhomecsp:study:mycourse:delete",
+                    "name":"任务列表",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "fiberhomecsp:study:evaluation",
+            "name": "评价管理",
+            "img": "",
+            "url": "/evaluation/study/courseList",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"fiberhomecsp:study:evaluation:list",
+                    "name":"评价列表",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:evaluation:add",
+                    "name":"新增评价",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:evaluation:edit",
+                    "name":"修改评价",
+                    "type":"按钮"
+                },{
+                    "id":"fiberhomecsp:study:evaluation:delete",
+                    "name":"删除评价",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "fiberhomecsp:study:plan",
+            "name": "进度管理",
+            "img": "",
+            "url": "/plan/planList1",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"xqlc-archives:system:create",
+                    "name":"分类与键值管理",
+                    "type":"下拉菜单"
+                },
+                {
+                    "id":"xqlc-archives:system:update",
+                    "name":"修改键值",
+                    "type":"按钮"
+                },
+                {
+                    "id":"xqlc-archives:system:delete",
+                    "name":"删除键值",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "xqlc-archives:dataStatistics",
+            "name": "档案统计管理",
+            "img": "",
+            "url": "/system/dataStatistics/data_year",
+            "visible": true
+        },{
+            "id": "firberhomecsp:myexam",
+            "name": "我的考试",
+            "img": "",
+            "url": "/public/exam/examPaperList",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"firberhomecsp:myexam:nolist",
+                    "name":"未考试列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:myexam:already",
+                    "name":"已考试列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:myexam:handin",
+                    "name":"交卷",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:myexam:test",
+                    "name":"开始考试",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "firberhomecsp:strategymanager",
+            "name": "策略管理",
+            "img": "",
+            "url": "/exam/strategy/list",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"firberhomecsp:strategymanager:create",
+                    "name":"添加策略",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:strategymanager:list",
+                    "name":"策略列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:strategymanager:delete",
+                    "name":"删除策略",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "firberhomecsp:exercisemanager",
+            "name": "题库管理",
+            "img": "",
+            "url": "/examType/list",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"firberhomecsp:exercisemanager:typelist",
+                    "name":"类别列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:exerciselist",
+                    "name":"题目列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:addtype",
+                    "name":"添加类别",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:merge",
+                    "name":"合并",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:addexercise",
+                    "name":"添加题目",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:deleteexercise",
+                    "name":"删除题目",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:auditexercise",
+                    "name":"审核题目",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:updateexercise",
+                    "name":"修改题目",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:exercisemanager:useexercise",
+                    "name":"是否启用题目",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "firberhomecsp:papermanager",
+            "name": "试卷管理",
+            "img": "",
+            "url": "/exam/paper/list/1",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"firberhomecsp:papermanager:addpaper",
+                    "name":"添加母板",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:papermanager:paperlist",
+                    "name":"母板列表",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:papermanager:auditpaper",
+                    "name":"审核母板",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:papermanager:deletepaper",
+                    "name":"删除母板",
+                    "type":"按钮"
+                },
+                {
+                    "id":"firberhomecsp:papermanager:updatepaper",
+                    "name":"修改母板",
+                    "type":"按钮"
+                }
+            ]
+        },{
+            "id": "firberhomecsp:exammanager",
+            "name": "考试管理",
+            "img": "",
+            "url": "/exam/paper/readyExamPaper",
+            "visible": true,
+            "parts": [
+                {
+                    "id":"firberhomecsp:exammanager:correctpaper",
+                    "name":"批改试卷",
+                    "type":"按钮"
+                }
+            ]
+        }
+    ]
+}

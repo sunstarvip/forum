@@ -1,0 +1,42 @@
+/*
+* 	ajax载入样式
+*/
+.background { 
+display: block; 
+width: 100%; 
+height: 100%; 
+opacity: 0.4; 
+filter: alpha(opacity=40); 
+position: absolute; 
+top: 0; 
+left: 0; 
+z-index: 2000; 
+} 
+.progressBar { 
+background: url('../../../static/themes/uibasic/images/loading.gif') no-repeat; 
+} 
+.progressBar { 
+display: block; 
+width: 31px; 
+height: 31px; 
+position: fixed; 
+top: 40%; 
+left: 48%; 
+position: absolute; 
+z-index: 2001; 
+}
+
+
+/*
+*	右键菜单样式
+*/
+div#rMenu {position: absolute; z-index: 1500; left: 489px; top: 182px; display: block;}
+div#rMenu ul {
+		list-style: none; padding: 1px; margin: 0px; background-color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); width: 100px;
+	}
+div#rMenu ul li{
+		margin: 0px; color: rgb(0, 0, 0); display: block; cursor: default; padding: 3px; border: 1px solid rgb(255, 255, 255); background-color: transparent;
+	}
+div#rMenu ul li:hover{
+		margin: 0px; color: rgb(0, 0, 0); display: block; cursor: default; padding: 3px; border: 1px solid rgb(255, 255, 255); background-color: rgb(182, 189, 210);;
+	}
